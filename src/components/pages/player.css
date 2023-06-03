@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap');
+
+
+.player{
+    margin-left: 100px;
+}
+
+
+
+.name {
+    margin: 0;
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 40px;
+    font-weight: 800;
+  }
+  
+  .team {
+    margin: 0;
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  
+  .height {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 405px;
+    padding-top: 20px;
+  }
+  
+  .weight {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 405px;
+    padding-top: 5px;
+  }
+  
+  .age {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -65px;
+    margin-left: 580px;
+  }
+  
+  .contract {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 580px;
+    padding-top: 5px;
+  }
+  
+  .player-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255); 
+    margin-left: 10px; 
+    position: absolute;
+    left: 250px; 
+    top: 120px; 
+  }
+  .round-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+  }
+  .black-text{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  .number{
+    font-size: 20px;
+    margin-top: -160px;
+    padding-left: 700px;
+  }
+  .position{
+    margin-top: -50px;
+    padding-left: 60px;
+  }
+  .pos-text {
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Chakra Petch', sans-serif;;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+  }
+  .status {
+    color: rgba(46, 199, 46, 0.532);
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  
+
+
+  
+  
+  
+  
+  
+  
+  

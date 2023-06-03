@@ -1,0 +1,26 @@
+.scorebox {
+    margin: auto;
+    margin-top: 50px;
+    width: 1500px; /* adjust the width as you like */
+    height: 300px; /* adjust the height as you like */
+    border: 2px solid rgb(0, 0, 0); /* add a border to the box */
+    border-radius: 10px;
+    background-color: rgb(188, 188, 188); /* change the background color of the box */
+    opacity: 70%;
+    box-shadow: 0 3px 9px 2px rgba(0, 0, 0, 0.55);
+    
+}
+.dummytext{
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+}
+@media (max-width: 768px) {
+    .scorebox {
+        width: 80%; /* reduce the width of the box */
+        height: auto; /* make the height adjust to the content */
+    }
+    .dummytext {
+        font-size: 18px; /* reduce the font size of the text */
+    }
+}

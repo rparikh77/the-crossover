@@ -1,0 +1,52 @@
+[
+  {
+    "firstName": "Stephen",
+    "lastName": "Curry",
+    "teamName": "Golden State Warriors",
+    "age": "35",
+    "weight": "185 lbs",
+    "height": "6' 2",
+    "position": "PG",
+    "playerNum":"30",
+    "contract": " 4yr(s) / $215,353,664", "status": "(current)",
+    "playerId": 201939,
+    "teamId": 1610612744,
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png"
+  },
+  {
+    "firstName": "Luka",
+    "lastName": "Doncic",
+    "teamName": "Dallas Mavericks",
+    "position": "PG",
+    "playerNum":"77",
+    "playerId": 1629029,
+    "teamId": 1610612742
+  },
+  {
+    "firstName": "Giannis",
+    "lastName": "Antetokounmpo",
+    "teamName": "Milwaukee Bucks",
+    "position": "SF",
+    "playerNum":"34",
+    "playerId": 203507,
+    "teamId": 1610612749
+  },
+  {
+    "firstName": "LeBron",
+    "lastName": "James",
+    "teamName": "Los Angeles Lakers",
+    "position": "SF",
+    "playerNum":"6",
+    "playerId": 2544,
+    "teamId": 1610612747
+  },
+  {
+    "firstName": "Nikola",
+    "lastName": "Jokic",
+    "teamName": "Denver Nuggets",
+    "playerNum":"15",
+    "position": "C",
+    "playerId": 203999,
+    "teamId": 1610612743
+  }
+]

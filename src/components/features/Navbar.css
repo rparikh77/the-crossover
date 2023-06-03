@@ -1,0 +1,10 @@
+.navbar{
+    background-color: rgb(5, 34, 47);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.485);
+    padding: 10px;
+    position: sticky;
+}
+.logo{
+    padding-left: 20px;
+    width: 330px;
+}

@@ -1,0 +1,30 @@
+.search-box{
+    margin: auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 70px;
+    border: 3px solid rgb(49, 255, 252);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.513);
+    border-radius: 40px;
+    background-color: rgb(5, 34, 47);
+}
+
+.search-box input{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 34, 47);
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    width: 90%;
+}
+.search-box ::placeholder{
+    color: rgb(49, 255, 252);
+}
+.search-icon{
+    color: rgb(49, 255, 252);
+}
+
