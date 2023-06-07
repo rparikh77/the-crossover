@@ -46,3 +46,10 @@
     transform: translateX(-80%);
   }
 }
+
+@media (max-width: 768px){
+  .ticker{
+    width: 122%;
+    margin-left: -12%;
+  }
+}

@@ -38,6 +38,7 @@
 
 .away-team-name {
     position: absolute;
+    margin-top: 10px;
     top: 350px;
     left: 17%;
     transform: translateX(-50%);
@@ -48,6 +49,7 @@
 
 .home-team-name {
     position: absolute;
+    margin-top: 10px;
     top: 350px;
     right: 4%;
     transform: translateX(-50%);
@@ -203,22 +205,76 @@
     }
 
     .away-team-name {
-        position: absolute;
-        top: 45%;
-        left: unset;
-        right: 82%;
-        transform: translateX(50%);
-        text-align: center;
-        font-size: 1.7vw;
+        margin-top: .2%;
     }
 
     .home-team-name {
-        position: absolute;
-        top: 45%;
-        left: unset;
-        right: 17%;
-        transform: translateX(50%);
-        text-align: center;
-        font-size: 1.7vw;
+        margin-top: .2%;
+        margin-right: -61px;
+    }
+}
+
+@media (max-width: 768px) {
+    .away-team{
+        margin-top: 15px;
+        margin-left: -60px;
+        width: 80px;
+        height: 80px;
+    }
+    .away-team-name{
+        font-size: 16px;
+        margin-top: -42px;
+        margin-left: 38px;
+    }
+    .away-team-record{
+        margin-right: -8%;
+        margin-top: -63px;
+        font-size: 15px;
+    }
+    .away-score{
+        margin-top: 105px;
+        margin-right: 20px;
+        font-size: 50px;
+    }
+    .home-team{
+        margin-top: 15px;
+        margin-right: -30px;
+        width: 80px;
+        height: 80px;
+    }
+    .home-image{
+        width: 50px;
+        margin-left: 16px;
+    }
+    .home-team-name{
+        font-size: 16px;
+        padding-left: 60px;
+        margin-top: -42px;
+    }
+    .home-team-record{
+        margin-top: -63px;
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    .home-score{
+        margin-top: 105px;
+        margin-right: -118px;
+        font-size: 50px;
+    }
+    .provider-image {
+        width: 6%;
+        top: 87px;
+    }
+
+    .day {
+        margin-top: 49px;
+        margin-left: 208px;
+        font-size: 40px;
+    }
+
+    .time {
+        margin-top: -10px;
+        font-size: 14px;
+        margin-left: 54%;
     }
 }
