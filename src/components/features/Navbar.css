@@ -8,3 +8,8 @@
     padding-left: 20px;
     width: 330px;
 }
+@media (max-width: 768px){
+    .logo{
+        margin-left: 58px;
+    }
+}
