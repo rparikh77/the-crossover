@@ -1,24 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
 
 .player{
     margin-left: 100px;
 }
-
-
+.circle3-number {
+  margin-left: 180px; /* Set your desired margin value here */
+}
+.circle4-number {
+  margin-left: -50px; /* Set your desired margin value here */
+}
+.circle5-number {
+  margin-left: -50px; /* Set your desired margin value here */
+}
+.circle2-number {
+  margin-left: -10px; /* Set your desired margin value here */
+}
 
 .name {
     margin: 0;
     text-align: left;
-    margin-left: 400px;
+    margin-left: 403px;
     margin-top: 40px;
     font-weight: 800;
+
   }
   
   .team {
     margin: 0;
     text-align: left;
-    margin-left: 400px;
+    margin-left: 405px;
     margin-top: 10px;
     font-size: 25px;
   }
@@ -27,7 +37,7 @@
     margin: 0;
     text-align: left;
     font-size: 20px;
-    margin-left: 405px;
+    margin-left: 408px;
     padding-top: 20px;
   }
   
@@ -35,7 +45,7 @@
     margin: 0;
     text-align: left;
     font-size: 20px;
-    margin-left: 405px;
+    margin-left: 408px;
     padding-top: 5px;
   }
   
@@ -70,7 +80,7 @@
     width: 200px;
     height: 150px;
     background-color: rgb(255, 255, 255);
-    margin-left: 10px;
+    margin-left: 12px;
   }
   .black-text{
     color: rgb(0, 0, 0);
@@ -88,17 +98,47 @@
   .pos-text {
     font-size: 70px;
     font-weight: 800;
-    font-family: 'Chakra Petch', sans-serif;;
+    font-family: 'Readex Pro', sans-serif;
     position: absolute;
     top: 120px;
     left: 200px;
   }
   .status {
-    color: rgba(46, 199, 46, 0.532);
+    color: rgb(51, 187, 51);
     padding-left: 10px;
     font-weight: bold;
   }
-  
+
+  @media (max-width: 1440px) {
+    .pos-text{
+      margin-left: -70px;
+    }
+    .player-image{
+      margin-left: -70px;
+    }
+    .name{
+      margin-left: 350px;
+    }
+    .team{
+      margin-left: 352px;
+    }
+    .number{
+      margin-left: -60px;
+    }
+    .height{
+      margin-left: 26.7%;
+    }
+    .weight{
+      margin-left: 26.7%;
+    }
+    .age{
+      margin-left: 42%;
+    }
+    .contract{
+      margin-left: 42%;
+    }
+  }
+
 
 
   

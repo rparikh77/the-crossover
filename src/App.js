@@ -13,7 +13,8 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/home' element={<Home/>} />
         <Route path ='/' element={<SearchBar/>} />
-        <Route path='/player' element={<Player />} />
+        <Route path='/player/:playerId' element={<Player />} />
+    
       </Routes>
     </>
   );

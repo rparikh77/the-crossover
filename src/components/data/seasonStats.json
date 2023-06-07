@@ -1,0 +1,47 @@
+[
+    {
+      "playerName":"Stephen Curry",
+      "points": "29.4",
+      "assists": "6.3",
+      "rebounds": "6.1",
+      "fieldGoal": "49.3",
+      "percentile": "47th",
+      "playerId": 201939
+    },
+    {
+      "playerName":"LeBron James",
+      "points": "28.9",
+      "assists": "8.3",
+      "rebounds": "6.8",
+      "fieldGoal": "50.0",
+      "percentile": "40th",
+      "playerId": 2544
+    },
+    {
+      "playerName":"Luka Doncic",
+      "points": "32.4",
+      "assists": "8.0",
+      "rebounds": "8.6",
+      "fieldGoal": "49.6",
+      "percentile": "43rd",
+      "playerId": 1629029
+    },
+    {
+      "playerName":"Giannis Antetokumpo",
+      "points": "31.1",
+      "assists": "5.7",
+      "rebounds": "11.8",
+      "fieldGoal": "55.3",
+      "percentile": "17th",
+      "playerId": 203507
+    },
+    {
+      "playerName":"Nikola Jokic",
+      "points": "24.5",
+      "assists": "9.8",
+      "rebounds": "11.8",
+      "fieldGoal": "63.2",
+      "percentile": "8th",
+      "playerId": 203999
+    }
+  ]

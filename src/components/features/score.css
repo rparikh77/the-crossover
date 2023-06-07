@@ -1,26 +1,224 @@
 .scorebox {
     margin: auto;
-    margin-top: 50px;
-    width: 1500px; /* adjust the width as you like */
-    height: 300px; /* adjust the height as you like */
-    border: 2px solid rgb(0, 0, 0); /* add a border to the box */
-    border-radius: 10px;
-    background-color: rgb(188, 188, 188); /* change the background color of the box */
-    opacity: 70%;
+    margin-top: 60px;
+    width: 1750px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(8, 27, 40);
     box-shadow: 0 3px 9px 2px rgba(0, 0, 0, 0.55);
-    
 }
-.dummytext{
+
+.dummytext {
     text-align: center;
     margin-top: 100px;
-    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
-@media (max-width: 768px) {
+
+.away-team {
+    position: absolute;
+    top: 350px;
+    right: 67%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(34, 255, 248, 0.793);
+}
+
+.home-team {
+    position: absolute;
+    top: 350px;
+    right: 21%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 3px 9px rgba(34, 255, 248, 0.793);
+}
+
+.away-team-name {
+    position: absolute;
+    top: 350px;
+    left: 17%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.home-team-name {
+    position: absolute;
+    top: 350px;
+    right: 4%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.home-image {
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.away-image {
+    width: 400px;
+    margin-top: 14px;
+    margin-left: 2px;
+}
+
+.home-team-record {
+    position: absolute;
+    top: 390px;
+    left: 79%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.away-team-record {
+    position: absolute;
+    top: 390px;
+    right: 78%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.home-score {
+    position: absolute;
+    top: 360px;
+    right: 35%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.away-score {
+    position: absolute;
+    top: 360px;
+    right: 58.1%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.provider-image {
+    margin: auto;
+    align-items: center;
+    width: 53px;
+    position: relative; /* Add this line to ensure top is positioned relative to the parent */
+    top: 50px; /* Adjust the value to move the image further down */
+    transform: translateX(-50%);
+    margin-left: 860px; /* Adjust the value to move the image left or right */
+    box-shadow: 0 0 4px rgb(255, 255, 255);
+    border-radius: 40px;
+}
+
+.day {
+    margin: auto;
+    width: 50px;
+    font-size: 90px;
+    position: relative; /* Add this line to ensure top is positioned relative to the parent */
+    top: 40px; /* Adjust the value to move the image further down */
+    transform: translateX(-50%);
+    margin-left: 810px; /* Adjust the value to move the image left or right */
+    color: white;
+}
+
+.time {
+    margin: auto;
+    width: 110px;
+    font-size: 20px;
+    position: relative; /* Add this line to ensure top is positioned relative to the parent */
+    top: 50px; /* Adjust the value to move the image further down */
+    transform: translateX(-50%);
+    margin-left: 870px; /* Adjust the value to move the image left or right */
+    color: white;
+    font-weight: 300;
+}
+
+/* MacBook Air Style */
+
+@media (max-width: 1440px) {
     .scorebox {
-        width: 80%; /* reduce the width of the box */
-        height: auto; /* make the height adjust to the content */
+        width: 90%;
     }
-    .dummytext {
-        font-size: 18px; /* reduce the font size of the text */
+
+    .away-team {
+        left: 20.6%;
+        transform: translateX(50%);
+    }
+
+    .home-team {
+        right: 30%;
+        transform: translateX(50%);
+    }
+
+    .home-image {
+        width: 60%;
+        margin-top: 13px;
+        margin-left: 25px; /* Adjust the value to move the image left */
+    }
+
+    .away-image {
+        width: 100%;
+        margin-left: 0.5%;
+    }
+
+    .home-team-record,
+    .away-team-record {
+        font-size: 1.3vw;
+    }
+    .home-team-record {
+        margin-left: -20px;
+        margin-top: -0.5%;
+    }
+    .away-team-record{
+        margin-right: -21px;
+        margin-top: -0.5%;
+    }
+
+    .home-score,
+    .away-score {
+        font-size: 3vw;
+    }
+
+    .provider-image {
+        width: 3%;
+        margin-left: 50%;
+    }
+
+    .day {
+        font-size: 6vw;
+        margin-left: 46%;
+    }
+
+    .time {
+        font-size: 1vw;
+        margin-left: 51.5%;
+    }
+
+    .away-team-name {
+        position: absolute;
+        top: 45%;
+        left: unset;
+        right: 82%;
+        transform: translateX(50%);
+        text-align: center;
+        font-size: 1.7vw;
+    }
+
+    .home-team-name {
+        position: absolute;
+        top: 45%;
+        left: unset;
+        right: 17%;
+        transform: translateX(50%);
+        text-align: center;
+        font-size: 1.7vw;
     }
 }

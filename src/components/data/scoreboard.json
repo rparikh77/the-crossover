@@ -1,0 +1,38 @@
+[
+    {
+        "homeTeam": "Denver Nuggets",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
+        "wins": "1",
+        "losses": "0",
+        "score": "20"
+    },
+    {
+        "awayTeam": "Miami Heat",
+        "image": "https://logos-world.net/wp-content/uploads/2020/05/Miami-Heat-Symbol.png",
+        "wins": "0",
+        "losses": "1",
+        "score": "0"
+    },
+    {
+        "espn": "https://1000logos.net/wp-content/uploads/2021/05/ESPN-logo.png",
+        "abc": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg",
+        "tnt": "https://m.media-amazon.com/images/I/41SnZkqVXQL.png",
+        "nbaTV": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png",
+        "leaguePass": "https://upload.wikimedia.org/wikipedia/en/6/6e/NBA_League_Pass.png"
+    },
+    {
+        "monday":"Mon",
+        "tuesday": "Tue",
+        "wednesday":"Wed",
+        "thursday":"Thur",
+        "friday": "Fri",
+        "saturday": "Sat",
+        "sunday":"Sun"
+
+    },
+    {
+        "time":"7:00 PM CT"
+
+
+    }
+]

@@ -1,6 +1,6 @@
 [
   {
-    "firstName": "Stephen",
+    "firstName": "Stephen", 
     "lastName": "Curry",
     "teamName": "Golden State Warriors",
     "age": "35",
@@ -17,19 +17,29 @@
     "firstName": "Luka",
     "lastName": "Doncic",
     "teamName": "Dallas Mavericks",
+    "age": "24",
+    "weight": "230 lbs",
+    "height": "6' 7",
+    "contract": " 5 yr(s) / $215,159,700", "status": "(current)",
     "position": "PG",
     "playerNum":"77",
     "playerId": 1629029,
-    "teamId": 1610612742
+    "teamId": 1610612742,
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png"
   },
   {
     "firstName": "Giannis",
     "lastName": "Antetokounmpo",
     "teamName": "Milwaukee Bucks",
+    "age": "28",
+    "weight": "243 lbs",
+    "height": "6' 11",
+    "contract": " 5 yr(s) / $228,200,420", "status": "(current)",
     "position": "SF",
     "playerNum":"34",
     "playerId": 203507,
-    "teamId": 1610612749
+    "teamId": 1610612749,
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203507.png"
   },
   {
     "firstName": "LeBron",
@@ -37,16 +47,26 @@
     "teamName": "Los Angeles Lakers",
     "position": "SF",
     "playerNum":"6",
+    "contract": " 2 yr(s) / $97,133,373", "status": "(current)",
+    "age": "38",
+    "weight": "250 lbs",
+    "height": "6' 9",
     "playerId": 2544,
-    "teamId": 1610612747
+    "teamId": 1610612747,
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png"
   },
   {
     "firstName": "Nikola",
     "lastName": "Jokic",
     "teamName": "Denver Nuggets",
     "playerNum":"15",
+    "contract": " 5 yr(s) / $272,020,000", "status": "(current)",
+    "age": "28",
+    "weight": "284 lbs",
+    "height": "6' 11",
     "position": "C",
     "playerId": 203999,
-    "teamId": 1610612743
+    "teamId": 1610612743,
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png"
   }
 ]
