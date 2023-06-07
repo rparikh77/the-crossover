@@ -215,6 +215,11 @@
 }
 
 @media (max-width: 768px) {
+    .scorebox{
+        width: 320px;
+        margin-left: 40px;
+    }
+
     .away-team{
         margin-top: 15px;
         margin-left: -60px;
@@ -222,18 +227,18 @@
         height: 80px;
     }
     .away-team-name{
-        font-size: 16px;
+        font-size: 13px;
         margin-top: -42px;
         margin-left: 38px;
     }
     .away-team-record{
-        margin-right: -8%;
+        margin-right: -10.5%;
         margin-top: -63px;
         font-size: 15px;
     }
     .away-score{
         margin-top: 105px;
-        margin-right: 20px;
+        margin-right: 0px;
         font-size: 50px;
     }
     .home-team{
@@ -247,14 +252,14 @@
         margin-left: 16px;
     }
     .home-team-name{
-        font-size: 16px;
-        padding-left: 60px;
+        font-size: 13px;
+        padding-left: 65px;
         margin-top: -42px;
     }
     .home-team-record{
         margin-top: -63px;
         font-size: 15px;
-        margin-left: -15px;
+        margin-left: -5px;
     }
     .home-score{
         margin-top: 105px;
@@ -264,17 +269,18 @@
     .provider-image {
         width: 6%;
         top: 87px;
+        margin-left: 167px;
     }
 
     .day {
         margin-top: 49px;
-        margin-left: 208px;
+        margin-left: 155px;
         font-size: 40px;
     }
 
     .time {
         margin-top: -10px;
         font-size: 14px;
-        margin-left: 54%;
+        margin-left: 57%;
     }
 }
