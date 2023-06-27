@@ -1,19 +1,33 @@
 import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/crossover-logo.png';
 import './Navbar.css';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const [navOpen, setNavOpen] = useState(false);
+
+  const handleClick = () => {
+    setNavOpen(!navOpen);
+  };
 
   return (
     <div className='navbar'>
       <div className='logo'>
         <a href='/home'>
-        <img src={Logo} alt='Logo Image' />
+          <img src={Logo} alt='Logo Image' />
         </a>
       </div>
 
+      <div className={`navigation ${navOpen ? 'open' : ''}`}>
+        <NavLink exact activeClassName='active' className='home' to='/home'>
+          Home
+        </NavLink>
+      </div>
+
+      <div className='hamburger' onClick={handleClick}>
+        {navOpen ? <FaTimes /> : <FaBars />}
+      </div>
     </div>
   );
 };

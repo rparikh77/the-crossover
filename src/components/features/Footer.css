@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer-logo{
+    width: 20%;
+    margin: auto;
+  }
+  @media (max-width: 768px) {
+    .footer {
+      margin-top: 100%;
+    }
+  }
+  
