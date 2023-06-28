@@ -20,9 +20,23 @@ const Navbar = () => {
       </div>
 
       <div className={`navigation ${navOpen ? 'open' : ''}`}>
-        <NavLink exact activeClassName='active' className='home' to='/home'>
-          Home
-        </NavLink>
+        <div className='home-button'>
+          <NavLink exact activeClassName='active' className='home-text' to='/home'>
+            Home
+          </NavLink>
+        </div>
+        <div className='feed-button'>
+          <NavLink exact activeClassName='active' className='feed-text' to='/feed'>
+            Twitter 
+          </NavLink>
+        </div>
+        <div className='team-button'>
+          <NavLink exact activeClassName='active' className='team-text' to='/team'>
+            Team 
+          </NavLink>
+        </div>
+
+        
       </div>
 
       <div className='hamburger' onClick={handleClick}>

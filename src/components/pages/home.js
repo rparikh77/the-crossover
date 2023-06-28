@@ -1,10 +1,12 @@
 import React from 'react';
 import './home.css';
+import Intro from '../features/intro';
+
 
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <Intro />
     </div>
   )
 }

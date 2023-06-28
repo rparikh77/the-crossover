@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(19, 38, 53);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.485);
     padding: 10px;
     position: sticky;
@@ -15,33 +15,12 @@
   }
   
   .navigation {
-    color: white;
+    color: #69FFFF;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     margin-left: 35%;
-  }
-  
-  .home {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-right: 60px;
-  }
-  
-  .active {
-    position: relative;
-    font-weight: bold;
-  }
-  
-  .active::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: rgb(126, 242, 255);
-  }
+  }  
   
   .hamburger {
     display: none;
@@ -50,7 +29,93 @@
     cursor: pointer;
     margin-left: 10px;
   }
+
+  .home-button {
+    justify-content: center;
+    margin: auto;
+    margin-left: -40%;
+    padding-right: 30px;
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    transform: translateX(-.50in);
+  }
   
+  .home-button:hover {
+    background-color: rgb(23, 70, 102);
+    color: rgb(27, 219, 216);
+  }
+  
+  .home-text {
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 20px;
+  }
+  .feed-button {
+    justify-content: center;
+    margin: auto;
+    margin-left: -50%;
+    padding-right: 30px;
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    transform: translateX(-.50in);
+  }
+  
+  .feed-button:hover {
+    background-color: rgb(23, 70, 102);
+    color: rgb(27, 219, 216);
+  }
+  
+  .feed-text {
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 20px;
+  }
+  .team-button {
+    justify-content: center;
+    margin: auto;
+    margin-left: -50%;
+    padding-right: 30px;
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    transform: translateX(-.50in);
+  }
+  
+  .team-button:hover {
+    background-color: rgb(23, 70, 102);
+    color: rgb(27, 219, 216);
+  }
+  
+  .team-text {
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 20px;
+  }
+  .home-button .home-text.active {
+    color: white;
+    font-weight: 900;
+  }
+  .feed-button .feed-text.active {
+    color: white;
+    font-weight: 900;
+  }
+  .team-button .team-text.active {
+    color: white;
+    font-weight: 900;
+  }
+
+
   @media (max-width: 768px) {
     .navbar {
       flex-wrap: wrap;
@@ -71,7 +136,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: rgba(0, 0, 0, 0.9);
       padding: 20px;
     }
   
@@ -79,7 +143,7 @@
       display: block;
       text-align: center;
       margin: 10px 0;
-      color: white;
+      color: #69FFFF;
     }
   
     .navigation .home {
@@ -93,6 +157,34 @@
       margin-left: auto;
       margin-right: 10px;
     }
+    .home-button {
+      border: none;
+      margin-top: 20px;
+      margin-left: 20%;
+      padding-left: 15px;
+    }
+    .home-button:hover {
+      background-color: transparent;
+    }
+    .feed-button {
+      border: none;
+      margin-top: 20px;
+      margin-left: 19%;
+      padding-left: 15px;
+    }
+    .feed-button:hover {
+      background-color: transparent;
+    }
+    .team-button {
+      border: none;
+      margin-top: 20px;
+      margin-left: 21%;
+      padding-left: 15px;
+    }
+    .team-button:hover {
+      background-color: transparent;
+    }
+
   }
   
   

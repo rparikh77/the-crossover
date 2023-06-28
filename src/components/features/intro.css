@@ -1,0 +1,16 @@
+.marvel-intro {
+    border: 3px solid rgb(0, 255, 229);
+    border-radius: 40px;
+    align-items: center;
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    height: 570px;
+}
+@media (max-width: 768px) {
+    .marvel-intro {
+        width: 95%;
+        height: 200px;
+        border-radius: 20px;
+    }
+}
