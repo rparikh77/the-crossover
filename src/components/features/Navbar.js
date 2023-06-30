@@ -31,8 +31,8 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className='team-button'>
-          <NavLink exact activeClassName='active' className='team-text' to='/team'>
-            Team 
+          <NavLink exact activeClassName='active' className='team-text' to='/highlights'>
+            Highlights 
           </NavLink>
         </div>
 

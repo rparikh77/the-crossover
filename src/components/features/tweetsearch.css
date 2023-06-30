@@ -109,8 +109,9 @@
 @media (max-width: 768px) {
 
   .bar-container{
-    margin-top: 20px;
-    padding-bottom: 5%;
+    margin-top: 70px; 
+    padding-bottom: 15px;
+
   }
 
   .woj-title {

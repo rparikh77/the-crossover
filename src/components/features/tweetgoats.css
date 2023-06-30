@@ -1,0 +1,43 @@
+.goat-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -90px;
+    color: white;
+}
+.NBA {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+}
+.GOATS {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+}
+.tweet-logo {
+    width: 200px;
+    margin-top: -40px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+@media (max-width: 768px) {
+
+    .NBA {
+        font-size: 20px;
+        margin-right: -30px;
+
+    }
+    .GOATS {
+        font-size: 20px;
+        margin-left: -30px;
+
+    }
+    .tweet-logo {
+        margin-top: -15px;
+        width: 60px;
+        height: 60px;
+    }
+}

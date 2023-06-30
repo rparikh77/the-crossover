@@ -19,7 +19,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/feed' element={<Feed />} />
-        <Route path='/team' element={<Team />} />
+        <Route path='/highlights' element={<Team />} />
         <Route path ='/woj' element={<Twitter /> } /> 
         <Route path ='/shams' element={<Twitter2 /> } /> 
         <Route path ='/stein' element={<Twitter3 /> } /> 
