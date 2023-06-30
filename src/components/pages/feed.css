@@ -1,9 +1,0 @@
-.feed-container {
-    width: 20%;
-    margin: auto;
-}
-@media (max-width: 768px) {
-    .feed-container {
-        margin-left: 32px;
-    }
-}

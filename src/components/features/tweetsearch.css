@@ -1,0 +1,136 @@
+.bar-container {
+    background-color: none;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+
+.woj {
+  border: 2px solid white;
+  background-color: none;
+  margin-top: 5%;
+  margin-right: 2%;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+}
+.woj:hover {
+  background-color: rgb(222, 44, 44);
+}
+
+.woj-title {
+  color: white;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 85px;
+  font-size: large;
+  font-weight: 800;
+
+}
+
+.shams {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: none;
+  margin-top: 5%;
+  margin-right: 2%;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+}
+.shams:hover {
+  background-color: rgb(175, 56, 196);
+}
+
+.shams-title {
+  color: white;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 72px;
+  font-size: large;
+  font-weight: 800;
+
+}
+
+.stein {
+  border: 2px solid white;
+  background-color: none;
+  margin-top: 5%;
+  margin-right: 2%;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+}
+.stein:hover {
+  background-color: rgb(242, 171, 39);
+}
+.stein-title {
+  color: white;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 80px;
+  font-size: large;
+  font-weight: 800;
+
+}
+
+.mffl {
+  border: 2px solid white;
+  background-color: nonw;
+  margin-top: 5%;
+  width: 15%;
+  height: 50px;
+  border-radius: 10px;
+}
+.mffl:hover {
+  background-color: rgb(0, 64, 132);
+}
+
+.mffl-title {
+  color: white;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 80px;
+  font-size: large;
+  font-weight: 800;
+
+}
+
+  
+@media (max-width: 768px) {
+
+  .bar-container{
+    margin-top: 20px;
+    padding-bottom: 5%;
+  }
+
+  .woj-title {
+    margin-top: 10px;
+    margin-left: 25%;
+    font-size: small;
+  }
+  .shams-title {
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: small;
+  }
+  .stein-title {
+    margin-top: 10px;
+    margin-left: 17%;
+    font-size: small;
+  }
+  .mffl-title {
+    margin-top: 10px;
+    margin-left: 17%;
+    font-size: small;
+  }
+}
