@@ -1,0 +1,38 @@
+.espn-channel {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.featured-text {
+    color: #69FFFF;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.video1 {
+    margin-top: 150px;
+    margin-left: -40%;
+    border: 3px solid white;
+    border-radius: 40px;
+
+}
+@media (max-width: 768px) {
+    .espn-channel {
+        margin-left: -60%;
+        margin-right: 7%;
+    }
+    .video1 {
+        margin-top: 120px;
+    }
+
+    .featured-text {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 63%;
+    }
+
+
+
+}
