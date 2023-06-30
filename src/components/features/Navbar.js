@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
         <div className='feed-button'>
           <NavLink exact activeClassName='active' className='feed-text' to='/feed'>
-            Twitter 
+            News 
           </NavLink>
         </div>
         <div className='team-button'>
