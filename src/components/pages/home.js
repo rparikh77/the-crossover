@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import Intro from '../features/intro';
 import Stat from '../features/stat';
+import FreeAgent from '../features/freeagent';
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
     <div>
       <Intro />
       <Stat />
+      <FreeAgent />
     </div>
   )
 }
