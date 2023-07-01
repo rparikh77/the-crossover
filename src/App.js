@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/feed' element={<Feed />} />
+        <Route path='/news' element={<Feed />} />
         <Route path='/highlights' element={<Team />} />
         <Route path ='/woj' element={<Twitter /> } /> 
         <Route path ='/shams' element={<Twitter2 /> } /> 

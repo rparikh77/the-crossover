@@ -1,7 +1,8 @@
 import React from 'react';
 import TweetBar from '../features/tweetsearch.js';
 import Goats from '../features/tweetgoats.js';
-import ESPN from '../features/ESPN.js';
+import BreakingNews from '../features/breakingnews.js';
+
 
 
 function Feed() {
@@ -11,7 +12,8 @@ function Feed() {
     <div>
       <Goats />
       <TweetBar />
-      <ESPN />
+      <BreakingNews />
+
 
 
     </div>

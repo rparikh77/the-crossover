@@ -26,7 +26,7 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className='feed-button'>
-          <NavLink exact activeClassName='active' className='feed-text' to='/feed'>
+          <NavLink exact activeClassName='active' className='feed-text' to='/news'>
             News 
           </NavLink>
         </div>
