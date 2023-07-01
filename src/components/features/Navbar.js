@@ -11,6 +11,10 @@ const Navbar = () => {
     setNavOpen(!navOpen);
   };
 
+  const handleNavLinkClick = () => {
+    setNavOpen(false); 
+  };
+
   return (
     <div className='navbar'>
       <div className='logo'>
@@ -21,22 +25,38 @@ const Navbar = () => {
 
       <div className={`navigation ${navOpen ? 'open' : ''}`}>
         <div className='home-button'>
-          <NavLink exact activeClassName='active' className='home-text' to='/home'>
+          <NavLink
+            exact
+            activeClassName='active'
+            className='home-text'
+            to='/home'
+            onClick={handleNavLinkClick} 
+          >
             Home
           </NavLink>
         </div>
         <div className='feed-button'>
-          <NavLink exact activeClassName='active' className='feed-text' to='/news'>
-            News 
+          <NavLink
+            exact
+            activeClassName='active'
+            className='feed-text'
+            to='/news'
+            onClick={handleNavLinkClick} 
+          >
+            News
           </NavLink>
         </div>
         <div className='team-button'>
-          <NavLink exact activeClassName='active' className='team-text' to='/highlights'>
-            Highlights 
+          <NavLink
+            exact
+            activeClassName='active'
+            className='team-text'
+            to='/highlights'
+            onClick={handleNavLinkClick} 
+          >
+            Highlights
           </NavLink>
         </div>
-
-        
       </div>
 
       <div className='hamburger' onClick={handleClick}>
