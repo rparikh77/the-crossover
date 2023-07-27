@@ -1,0 +1,32 @@
+.hoftd{
+    margin: auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 60px;
+}
+.featuredvideo{
+    margin: auto;
+    padding-top: 20px;
+}
+.video1{
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+
+    .hoftd{
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .video1{
+        width: 350px;
+        height: 200px;
+    }
+    .featuredvideo{
+    }
+    
+}
